@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    margin: 25px auto 0 auto;
+    padding: 0 25px 25px 25px;
+    max-width: 800px;
+    box-shadow: 5px 5px 16px #dbdbdb;
+    background-color: white;
+    overflow: hidden;
+    transition: box-shadow 0.4s ease-in-out;
+}
+.container:hover{
+    box-shadow: 5px 5px 70px #dbdbdb;
+}
+h1{
+    position: relative;
+    margin: 25px 0;
+    text-align: center;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: rgb(80, 80, 80);
+}
+.description{
+    position: relative;
+    margin-bottom: 15px;
+    /* text-align: center; */
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 25px;
+    color: rgb(80, 80, 80);
+}
+.thank-you{
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    background-color: #ec1195;
+}
+.important{
+    margin-left: 5px;
+    padding: 5px;
+    background-color: #f1f1f1;
+}
+h2{
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+.description:last-child{
+    margin-bottom: 0;
+    /* text-align: center; */
+}
+.disc{
+    padding: 10px;
+    border: 2px dashed red;
+}
